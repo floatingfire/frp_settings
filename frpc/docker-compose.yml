@@ -1,0 +1,7 @@
+version: '2.3'
+services:
+  frpc:
+    image: oldiy/frpc
+    restart: always
+    volumes:
+      - ./:/frp

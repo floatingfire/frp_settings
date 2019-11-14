@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  frps:
+    image: oldiy/frps
+    restart: always
+    ports:
+      - 7000:7000
+    volumes:
+      - ./:/frp
